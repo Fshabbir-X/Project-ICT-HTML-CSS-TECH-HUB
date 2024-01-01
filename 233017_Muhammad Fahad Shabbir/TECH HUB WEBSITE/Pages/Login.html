@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login/SignUp</title>
+<style>
+body{
+    background-color: #ccc;
+}
+header {
+  font-family: 'Oswald', sans-serif;
+  background-color: #EEAE4A;
+  padding: 20px;
+  text-align: right;
+
+}
+header nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+}
+section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #FF8A00;
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+button[type="submit"] {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.subscribe-button {
+  background-color: #FF8A00;
+  border: 2px solid #FF8A00;  
+  border-block: 50%;  
+  padding: 10px 20px;  
+  text-decoration: none;  
+  color: white;  
+}
+footer {
+    background-color: #ff8a00;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/Home.html">Home</a>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/Features.html">Features</a>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/News.html">News</a>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/Contact.html">Contact</a>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/Login.html" style="color:#FF8A00">Log In</a>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/Subscribe.html" class="subscribe-button">Subscribe</a>
+        </nav>
+    </header>
+<section>
+  <h2>Login/SignUp</h2>
+  <form action="/login" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">Login</button>
+  </form>
+    </form>
+    <p style="text-align: center;">Not a member yet? <a href="/signup">Sign up</a></p>
+</section>
+<footer>
+    &copy; 2023 Tech Hub. All rights reserved.
+    </footer>
+</body>
+</html>

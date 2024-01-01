@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+<script>
+    function validateEmail() {
+        const emailInput = document.getElementById("email");
+        const email = emailInput.value;
+        const atSymbolIndex = email.indexOf("@");
+    
+        if (atSymbolIndex === -1) {
+            alert("Please enter a valid email address containing '@gmail,yahoo,Hotmail,etc.'.");
+            emailInput.focus();  
+            return false;  
+        }
+        return true;  
+    }
+    const form = document.querySelector("form");
+    form.addEventListener("submit", validateEmail);
+</script>
+<style>
+header {
+  font-family: 'Oswald', sans-serif;
+  background-color: #EEAE4A;
+  padding: 20px;
+  text-align: right;
+
+}
+header nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  font-size: xx-large;
+}
+body{
+    background-color: #C0C0C0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+form {
+   max-width: 600px;
+   margin: auto;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: large;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #FF8A00;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: large;
+}
+.subscribe-button {
+  background-color: #FF8A00;
+  border: 2px solid #FF8A00;  
+  border-block: 50%;  
+  padding: 10px 20px;  
+  text-decoration: none;  
+  color: white;  
+}
+footer {
+    background-color: #ff8a00;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/Home.html">Home</a>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/Features.html">Features</a>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/News.html">News</a>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/Contact.html">Contact</a>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/Login.html" style="color:#FF8A00">Log In</a>
+          <a href="/Users/codefusion/ICT/END SEMESTER(1) PROJECT/233017_Muhammad Fahad Shabbir & 231648_Muhammad Ahmad/CODE/Pages/Subscribe.html" class="subscribe-button">Subscribe</a>
+        </nav>
+    </header>
+
+    <h2><u>Contact Us</u></h2>
+
+    <form action="#" method="post">
+        <label for="firstName"><strong>First Name:</strong></label>
+        <input type="text" id="firstName" name="firstName" placeholder="First Letter Capital Please" required>
+
+        <label for="lastName"><strong>Last Name:</strong></label>
+        <input type="text" id="lastName" name="lastName" placeholder="First Letter Capital Please" required>
+
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+        <label for="phone"><strong>Phone Number:</strong></label>
+        <input type="tel" id="phone" name="phone" placeholder="+92(XXX-XXXXXXX)" required>
+
+        <label for="subject"><strong>Subject:</strong></label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message"><strong>Write a Message here:</strong></label>
+        <textarea id="message" name="message" rows="5" placeholder="Type your message here...." required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+    &copy; 2023 Tech Hub. All rights reserved.
+    </footer>
+</body>
+</html>
