@@ -66,18 +66,18 @@ https://fshabbir-x.github.io/Project-ICT-HTML-CSS-TECH-HUB/
 
 ---
 🎯 **What I Learned**  
-Structuring websites using semantic HTML.  
-Creating visually appealing layouts with CS.  
-Designing responsive web pages.  
-Improving UI/UX through layout and spacing.  
-Organizing front-end projects professionally.  
+-Structuring websites using semantic HTML.  
+-Creating visually appealing layouts with CS.  
+-Designing responsive web pages.  
+-Improving UI/UX through layout and spacing.  
+-Organizing front-end projects professionally.  
 
 ---
 🚀 **Future Improvements**  
-Add JavaScript interactivity.  
-Improve mobile responsiveness.  
-Enhance UI animations and transitions.  
-Integrate backend functionality.  
+-Add JavaScript interactivity.  
+-Improve mobile responsiveness.  
+-Enhance UI animations and transitions.  
+-Integrate backend functionality.  
 
 ---
 ⭐ **Support**  
