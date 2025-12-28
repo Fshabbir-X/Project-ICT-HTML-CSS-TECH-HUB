@@ -54,8 +54,8 @@ Project-ICT-HTML-CSS-TECH-HUB/
 ## ▶️ How to View the Project
 
 ### Option 1️⃣ Open Locally
-1. Clone the repository:
 ```bash
+1. Clone the repository:
 git clone https://github.com/Fshabbir-X/Project-ICT-HTML-CSS-TECH-HUB.git
 2. Navigate to the folder:
 cd Project-ICT-HTML-CSS-TECH-HUB
