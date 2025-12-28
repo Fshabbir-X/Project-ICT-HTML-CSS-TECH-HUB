@@ -60,19 +60,25 @@ git clone https://github.com/Fshabbir-X/Project-ICT-HTML-CSS-TECH-HUB.git
 2. Navigate to the folder:
 cd Project-ICT-HTML-CSS-TECH-HUB
 3. Open index.html in your browser
-
+```
+---
 🎯 What I Learned
 Structuring websites using semantic HTML
 Creating visually appealing layouts with CS
 Designing responsive web pages
 Improving UI/UX through layout and spacing
 Organizing front-end projects professionally
+---
 
+---
 🚀 Future Improvements
 Add JavaScript interactivity
 Improve mobile responsiveness
 Enhance UI animations and transitions
 Integrate backend functionality
+---
 
+---
 ⭐ Support
 If you like this project, consider giving it a star ⭐ — it really helps!
+---
